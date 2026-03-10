@@ -1,0 +1,87 @@
+/* القسم العام */
+.prep-section {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #f5e4d7, #d9b38c);
+}
+
+/* العنوان والوصف */
+.prep-title {
+  color: #5a3e2b;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.prep-description {
+  font-size: 1.1rem;
+  color: #5a3e2b;
+  margin-bottom: 40px;
+}
+
+/* البطاقة */
+.prep-card {
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+
+.prep-card:hover {
+  transform: translateY(-5px);
+}
+
+/* أسئلة */
+.question-title {
+  margin-bottom: 20px;
+  color: #5a3e2b;
+  font-weight: 600;
+}
+
+.prep-option {
+  margin-bottom: 10px;
+}
+
+/* الزر */
+.prep-btn {
+  margin-top: 20px;
+  background-color: #a9745b;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 25px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.prep-btn:hover {
+  background-color: #b6856c;
+}
+
+/* نتيجة الكويز */
+.result-card {
+  background-color: #fff3e6;
+}
+
+.result-title {
+  color: #5a3e2b;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.result-text {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #5a3e2b;
+  margin-bottom: 15px;
+}
+
+.result-image {
+  max-width: 200px;
+  margin: 15px 0;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
